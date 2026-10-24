@@ -38,19 +38,19 @@ const navIcons = [
 const dockApps = [
   {
     id: "finder",
-    name: "Portfolio", 
+    name: "Portfolio",
     icon: "finder.png",
     canOpen: true,
   },
   {
     id: "safari",
-    name: "Articles", 
+    name: "Articles",
     icon: "safari.png",
     canOpen: true,
   },
   {
     id: "photos",
-    name: "Gallery", 
+    name: "Gallery",
     icon: "photos.png",
     canOpen: true,
   },
@@ -62,7 +62,7 @@ const dockApps = [
   },
   {
     id: "terminal",
-    name: "Skills", 
+    name: "Skills",
     icon: "terminal.png",
     canOpen: true,
   },
@@ -229,7 +229,7 @@ const WORK_LOCATION = {
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5",
-      windowPosition: "top-[5vh] left-5", 
+      windowPosition: "top-[5vh] left-5",
       children: [
         {
           id: 1,

@@ -1,9 +1,10 @@
-import Navbar from "#components/Navbar"
+import { Navbar, Feature } from "#components/imports.js";
 
 const App = () => {
   return (
     <main>
       <Navbar />
+      <Feature />
     </main>
   )
 }
