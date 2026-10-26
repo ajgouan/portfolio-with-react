@@ -146,7 +146,7 @@ const Feature = () => {
                <h1 ref={titleRef} className="mt-5">{renderText("Portfolio", "font-allura text-9xl italic")}</h1>
 
                <div className="small-screen">
-                    <p>This Portfolio is designed for desktop/tabled screens only.</p>
+                    <p>This Portfolio is designed for desktop/tablet screens only.</p>
                </div>
           </section>
      );
