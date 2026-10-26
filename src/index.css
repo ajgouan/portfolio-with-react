@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 @import "tailwindcss";
 
@@ -15,8 +18,10 @@ body {
 
 @theme {
   --font-georama: "Georama", sans-serif;
-  --font-roboto: "Roboto Mono", monospace;
+  --font-roboto: "Roboto", sans-serif;
   --breakpoint-3xl: 1920px;
+  --font-allura: "Allura", sans-serif;
+
 }
 
 @utility flex-center {
@@ -66,11 +71,11 @@ body {
     @apply p-1 hover:bg-gray-200 rounded hover:cursor-default;
   }
 
-  #welcome {
+  #feature {
     @apply text-gray-200 flex flex-col justify-center items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 select-none max-sm:h-screen max-sm:w-full max-sm:px-10;
 
     .small-screen {
-      @apply sm:hidden m-7 bg-red-300/20 backdrop-blur-lg p-3 rounded-md absolute top-10;
+      @apply sm:hidden m-7 bg-black/50 backdrop-blur-md p-3 rounded-md absolute top-10;
 
       p {
         @apply flex-1 text-[16px] text-center font-roboto text-gray-400;
